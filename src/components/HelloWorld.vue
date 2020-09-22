@@ -1,6 +1,8 @@
 <template>
   <div>
-    {{this.$store.state.configSettings}}
+    <div>configSettings: {{this.$store.state.configSettings}}</div>
+    <div>dashBoardConfigSettings: {{this.$store.state.dashBoardConfigSettings}}</div>
+    <div>nodeData: {{this.$store.state.nodeData}}</div>
   </div>
 </template>
 
