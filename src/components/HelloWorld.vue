@@ -5,18 +5,21 @@
     <div>nodeData: {{this.$store.state.nodeData}}</div>
     <NT />
     <PC />
+    <CheckList />
   </div>
 </template>
 
 <script>
 import NT from './subcomponents/NT';
 import PC from './subcomponents/PC';
+import CheckList from './CheckList'
 
 export default {
   name: 'HelloWorld',
   components: {
     NT,
     PC,
+    CheckList,
   },
   data() {
     return {
