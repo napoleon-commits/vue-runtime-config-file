@@ -1,18 +1,18 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import axios from 'axios';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    configSettings: {}
+    configSettings: {},
   },
   actions: {
-    fetchConfigFile(){
-      const axios = require('axios');
-      axios.get('/static/config.json').then(r => {
+    fetchConfigFile() {
+      axios.get('/static/config.json').then((r) => {
         this.state.configSettings = r.data;
-      })
-    }
-  }
-})
+      });
+    },
+  },
+});

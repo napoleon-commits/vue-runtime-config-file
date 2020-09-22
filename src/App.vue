@@ -8,9 +8,9 @@
 <script>
 export default {
   name: 'App',
-  created(){
-    this.$store.dispatch('fetchConfigFile')
-  }
+  created() {
+    this.$store.dispatch('fetchConfigFile');
+  },
 };
 </script>
 
