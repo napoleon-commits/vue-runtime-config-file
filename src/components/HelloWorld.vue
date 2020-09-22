@@ -12,7 +12,7 @@
 <script>
 import NT from './subcomponents/NT';
 import PC from './subcomponents/PC';
-import CheckList from './CheckList'
+import CheckList from './CheckList';
 
 export default {
   name: 'HelloWorld',
