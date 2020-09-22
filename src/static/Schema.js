@@ -1,5 +1,3 @@
-import configSettings from '../../static/config.json';
-
 export default {
   groups: [
     {
@@ -12,7 +10,7 @@ export default {
         { foo: 'bar' },
         {
           model: 'ServiceBranch',
-          values: configSettings.branches,
+          values: [],
         },
         { foo: 'bar' },
       ],
