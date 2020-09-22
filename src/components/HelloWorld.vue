@@ -4,16 +4,19 @@
     <div>dashBoardConfigSettings: {{this.$store.state.dashBoardConfigSettings}}</div>
     <div>nodeData: {{this.$store.state.nodeData}}</div>
     <NT />
+    <PC />
   </div>
 </template>
 
 <script>
 import NT from './subcomponents/NT';
+import PC from './subcomponents/PC';
 
 export default {
   name: 'HelloWorld',
   components: {
     NT,
+    PC,
   },
   data() {
     return {
