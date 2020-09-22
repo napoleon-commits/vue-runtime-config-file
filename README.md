@@ -2,6 +2,11 @@
 
 > A Vue.js project created to read a config file in build process
 
+``` bash
+> # Problem: changes in config file aren't recognized with basic es6 imports
+> # Solution: make api fetch to local file
+```
+
 ## Build Setup
 
 ``` bash
