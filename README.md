@@ -1,6 +1,6 @@
 # vue-runtime-config-file
 
-> A Vue.js project
+> A Vue.js project created to read a config file in build process
 
 ## Build Setup
 
