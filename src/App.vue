@@ -8,6 +8,9 @@
 <script>
 export default {
   name: 'App',
+  created(){
+    console.log(this.$store.state.configSettings);
+  }
 };
 </script>
 
