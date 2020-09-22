@@ -3,12 +3,18 @@
     <div>configSettings: {{this.$store.state.configSettings}}</div>
     <div>dashBoardConfigSettings: {{this.$store.state.dashBoardConfigSettings}}</div>
     <div>nodeData: {{this.$store.state.nodeData}}</div>
+    <NT />
   </div>
 </template>
 
 <script>
+import NT from './subcomponents/NT';
+
 export default {
   name: 'HelloWorld',
+  components: {
+    NT,
+  },
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
