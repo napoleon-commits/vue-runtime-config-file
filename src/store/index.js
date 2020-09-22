@@ -7,5 +7,12 @@ export default new Vuex.Store({
   state: {
     configSettings: {}
   },
-  actions: {}
+  actions: {
+    fetchConfigFile(){
+      const axios = require('axios');
+      axios.get('/static/config.json').then(r => {
+        this.state.configSettings = r.data;
+      })
+    }
+  }
 })
