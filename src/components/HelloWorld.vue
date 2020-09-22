@@ -6,6 +6,7 @@
     <NT />
     <PC />
     <CheckList />
+    <JsonForms />
   </div>
 </template>
 
@@ -13,6 +14,7 @@
 import NT from './subcomponents/NT';
 import PC from './subcomponents/PC';
 import CheckList from './CheckList';
+import JsonForms from './JsonForms';
 
 export default {
   name: 'HelloWorld',
@@ -20,6 +22,7 @@ export default {
     NT,
     PC,
     CheckList,
+    JsonForms,
   },
   data() {
     return {
